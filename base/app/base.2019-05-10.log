@@ -1,0 +1,187 @@
+2019-05-10 09:03:17.544 [main] INFO  com.itmayiedu.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-10 09:03:19.728 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-05-10 09:03:19.729 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-05-10 09:03:19.865 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-10 09:03:23.067 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-10 09:03:23.068 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-10 09:03:23.073 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-10 09:03:23.073 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-10 09:03:23.572 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-10 09:03:23.872 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-10 09:03:23.872 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-10 09:03:23.958 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-10 09:03:23.958 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-10 09:03:24.187 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-10 09:03:24.236 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-10 09:03:24.236 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-10 09:03:24.236 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-10 09:03:24.236 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-10 09:03:24.236 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-10 09:03:24.236 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-10 09:03:24.236 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-10 09:03:24.537 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-10 09:03:24.538 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-10 09:03:24.540 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-10 09:03:24.543 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557450204542 with initial instances count: 0
+2019-05-10 09:03:24.567 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557450204567, current=UP, previous=STARTING]
+2019-05-10 09:03:24.568 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/USER-20190429PM:member:8762: registering service...
+2019-05-10 09:03:24.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-05-10 09:03:24.670 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-05-10 09:03:24.682 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-10 09:03:24.686 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/USER-20190429PM:member:8762 - registration status: 204
+2019-05-10 09:03:24.704 [main] INFO  com.itmayiedu.MemberServer - Started MemberServer in 9.478 seconds (JVM running for 11.242)
+2019-05-10 09:03:25.375 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-05-10 09:03:25.399 [RMI TCP Connection(7)-127.0.0.1] WARN  org.apache.activemq.broker.BrokerService - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 814 mb - resetting to 70% of maximum available: 570 mb
+2019-05-10 09:03:25.418 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-05-10 09:03:25.418 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-05-10 09:03:25.553 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49511-1557450205423-0:1) is starting
+2019-05-10 09:03:25.559 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49511-1557450205423-0:1) started
+2019-05-10 09:03:25.559 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-05-10 09:03:25.591 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-05-10 09:03:25.636 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-05-10 09:03:25.637 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49511-1557450205423-0:1) is shutting down
+2019-05-10 09:03:25.643 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49511-1557450205423-0:1) uptime 0.247 seconds
+2019-05-10 09:03:25.643 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49511-1557450205423-0:1) is shutdown
+2019-05-10 09:03:54.540 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-10 09:03:54.541 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-10 09:03:54.542 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-10 09:03:54.542 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-10 09:03:54.542 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-10 09:03:54.542 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-05-10 09:03:54.542 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-10 09:03:54.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-10 09:04:02.814 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-10 09:04:02.890 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-10 09:04:02.890 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求地址:http://localhost:8762/select
+2019-05-10 09:04:02.890 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求方式:GET
+2019-05-10 09:04:02.892 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求类方法:Map com.itmayiedu.api.service.impl.DemoApiServiceImpl.setKey(String,String)
+2019-05-10 09:04:02.892 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求类方法参数:[user, null]
+2019-05-10 09:04:02.892 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-10 09:04:02.896 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-10 09:04:02.899 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-05-10 09:04:02.899 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-10 09:07:06.690 [main] INFO  com.itmayiedu.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-10 09:07:08.455 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-05-10 09:07:08.456 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-05-10 09:07:08.592 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-10 09:07:11.344 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-10 09:07:11.345 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-10 09:07:11.348 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-10 09:07:11.349 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-10 09:07:11.777 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-10 09:07:12.035 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-10 09:07:12.035 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-10 09:07:12.119 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-10 09:07:12.119 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-10 09:07:12.358 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-10 09:07:12.407 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-10 09:07:12.408 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-10 09:07:12.408 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-10 09:07:12.408 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-10 09:07:12.408 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-10 09:07:12.408 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-10 09:07:12.408 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-10 09:07:12.669 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-10 09:07:12.670 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-10 09:07:12.673 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-10 09:07:12.676 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557450432676 with initial instances count: 0
+2019-05-10 09:07:12.700 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557450432700, current=UP, previous=STARTING]
+2019-05-10 09:07:12.702 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/USER-20190429PM:member:8762: registering service...
+2019-05-10 09:07:12.785 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-05-10 09:07:12.797 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-05-10 09:07:12.809 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-10 09:07:12.822 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/USER-20190429PM:member:8762 - registration status: 204
+2019-05-10 09:07:12.834 [main] INFO  com.itmayiedu.MemberServer - Started MemberServer in 8.188 seconds (JVM running for 9.734)
+2019-05-10 09:07:13.492 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-05-10 09:07:13.517 [RMI TCP Connection(2)-127.0.0.1] WARN  org.apache.activemq.broker.BrokerService - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 814 mb - resetting to 70% of maximum available: 570 mb
+2019-05-10 09:07:13.533 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-05-10 09:07:13.534 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-05-10 09:07:13.682 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49647-1557450433538-0:1) is starting
+2019-05-10 09:07:13.687 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49647-1557450433538-0:1) started
+2019-05-10 09:07:13.687 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-05-10 09:07:13.729 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-05-10 09:07:13.764 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-05-10 09:07:13.765 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49647-1557450433538-0:1) is shutting down
+2019-05-10 09:07:13.770 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49647-1557450433538-0:1) uptime 0.256 seconds
+2019-05-10 09:07:13.771 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49647-1557450433538-0:1) is shutdown
+2019-05-10 09:07:21.651 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-10 09:07:21.711 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-10 09:07:21.712 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求地址:http://localhost:8762/select
+2019-05-10 09:07:21.712 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求方式:GET
+2019-05-10 09:07:21.714 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求类方法:Map com.itmayiedu.api.service.impl.DemoApiServiceImpl.setKey(String,String)
+2019-05-10 09:07:21.714 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求类方法参数:[user, null]
+2019-05-10 09:07:21.714 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-10 09:07:21.718 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-10 09:07:21.721 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-05-10 09:07:21.721 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-10 09:07:42.672 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-10 09:07:42.672 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-10 09:07:42.672 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-10 09:07:42.672 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-10 09:07:42.672 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-10 09:07:42.672 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-05-10 09:07:42.673 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-10 09:07:42.716 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-10 09:09:52.334 [main] INFO  com.itmayiedu.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-10 09:09:54.077 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-05-10 09:09:54.078 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-05-10 09:09:54.189 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-10 09:09:56.897 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-10 09:09:56.897 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-10 09:09:56.901 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-10 09:09:56.902 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-10 09:09:57.377 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-10 09:09:57.619 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-10 09:09:57.619 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-10 09:09:57.705 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-10 09:09:57.705 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-10 09:09:57.924 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-10 09:09:57.973 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-10 09:09:57.973 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-10 09:09:57.973 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-10 09:09:57.973 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-10 09:09:57.973 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-10 09:09:57.973 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-10 09:09:57.973 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-10 09:09:58.211 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-10 09:09:58.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-10 09:09:58.213 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-10 09:09:58.217 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557450598217 with initial instances count: 0
+2019-05-10 09:09:58.242 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557450598242, current=UP, previous=STARTING]
+2019-05-10 09:09:58.244 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/USER-20190429PM:member:8762: registering service...
+2019-05-10 09:09:58.334 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-05-10 09:09:58.346 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-05-10 09:09:58.357 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/USER-20190429PM:member:8762 - registration status: 204
+2019-05-10 09:09:58.358 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-10 09:09:58.381 [main] INFO  com.itmayiedu.MemberServer - Started MemberServer in 8.809 seconds (JVM running for 9.882)
+2019-05-10 09:09:59.058 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-05-10 09:09:59.081 [RMI TCP Connection(1)-127.0.0.1] WARN  org.apache.activemq.broker.BrokerService - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 814 mb - resetting to 70% of maximum available: 570 mb
+2019-05-10 09:09:59.099 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-05-10 09:09:59.099 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-05-10 09:09:59.243 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49724-1557450599104-0:1) is starting
+2019-05-10 09:09:59.251 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49724-1557450599104-0:1) started
+2019-05-10 09:09:59.252 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-05-10 09:09:59.322 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-05-10 09:09:59.358 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-05-10 09:09:59.358 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49724-1557450599104-0:1) is shutting down
+2019-05-10 09:09:59.364 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49724-1557450599104-0:1) uptime 0.285 seconds
+2019-05-10 09:09:59.365 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:USER-20190429PM-49724-1557450599104-0:1) is shutdown
+2019-05-10 09:10:05.167 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-10 09:10:05.255 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-10 09:10:05.256 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求地址:http://localhost:8762/select
+2019-05-10 09:10:05.257 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求方式:GET
+2019-05-10 09:10:05.262 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求类方法:Map com.itmayiedu.api.service.impl.DemoApiServiceImpl.setKey(String,String)
+2019-05-10 09:10:05.262 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - 请求类方法参数:[user, null]
+2019-05-10 09:10:05.262 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-10 09:10:05.266 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-10 09:10:05.270 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-05-10 09:10:05.270 [http-nio-8762-exec-1] INFO  com.itmayiedu.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-10 09:10:28.214 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-10 09:10:28.214 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-10 09:10:28.214 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-10 09:10:28.214 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-10 09:10:28.214 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-10 09:10:28.214 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-05-10 09:10:28.214 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-10 09:10:28.263 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-10 09:14:57.983 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

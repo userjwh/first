@@ -1,0 +1,5 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    #是否在项目启动的同时启动一个MQ实例
+    in-memory: false

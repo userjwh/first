@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../MQConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springbootAndredis" charset="UTF-8" />
+    <file url="file://D:/笔记/资料和代码1/代码/itmayiedu-shopp-parent" charset="UTF-8" />
+    <file url="file://D:/笔记/资料和代码1/代码/itmayiedu-shopp-parent/itmayiedu-shopp-api" charset="UTF-8" />
+    <file url="file://D:/笔记/资料和代码1/代码/itmayiedu-shopp-parent/itmayiedu-shopp-api/imayiedu-shopp-member-api" charset="UTF-8" />
+    <file url="file://D:/笔记/资料和代码1/代码/itmayiedu-shopp-parent/itmayiedu-shopp-common" charset="UTF-8" />
+    <file url="file://D:/笔记/资料和代码1/代码/itmayiedu-shopp-parent/itmayiedu-shopp-eurekaserver" charset="UTF-8" />
+    <file url="file://D:/笔记/资料和代码1/代码/itmayiedu-shopp-parent/itmayiedu-shopp-member" charset="UTF-8" />
+  </component>
+</project>

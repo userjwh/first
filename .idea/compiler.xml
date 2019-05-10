@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="itmayiedu-shopp-eurekaserver" />
+        <module name="activeMQ" />
+        <module name="itmayiedu-shopp-member" />
+        <module name="itmayiedu-shopp-common" />
+        <module name="springbootAndredis" />
+        <module name="MQConsumer" />
+        <module name="imayiedu-shopp-member-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
